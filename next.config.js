@@ -4,7 +4,8 @@ const nextConfig = {
   basePath: '/seiminutiamezzanotte-links',
   images: {
     unoptimized: true
-  }
+  },
+  optimizeFonts: false
 }
 
 module.exports = nextConfig
