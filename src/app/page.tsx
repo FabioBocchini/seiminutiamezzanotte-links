@@ -44,7 +44,7 @@ const Home: React.FC = () => {
         </div>
       </div>
       <div className="flex flex-col min-w-full px-10 py-5 bg-better-black text-better-white">
-        <div className="flex justify-center text-xs font-thin">@ 2023 FABIO BOCCHINI</div>
+        <div className="flex justify-center text-xs font-thin">© 2023 FABIO BOCCHINI</div>
       </div>
     </div>
   )
