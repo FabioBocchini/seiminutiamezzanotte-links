@@ -1,0 +1,91 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "ignore": ["node_modules/**", "src/gql/**", ".next/**", ".yarn/**"]
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 80,
+    "attributePosition": "auto"
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "all",
+      "semicolons": "asNeeded",
+      "arrowParentheses": "asNeeded",
+      "bracketSpacing": true,
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "auto"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "correctness": {
+        "useHookAtTopLevel": "error",
+        "noConstAssign": "error",
+        "noConstantCondition": "error",
+        "noConstantMathMinMaxClamp": "error",
+        "noConstructorReturn": "error",
+        "noEmptyPattern": "error",
+        "noFlatMapIdentity": "error",
+        "noSelfAssign": "error",
+        "noUnnecessaryContinue": "error",
+        "noUnreachable": "error",
+        "noUnusedImports": "error",
+        "noUnusedLabels": "error",
+        "noUnusedVariables": "error",
+        "useExhaustiveDependencies": "error"
+      },
+      "complexity": {
+        "useArrowFunction": "error",
+        "useLiteralKeys": "error",
+        "useOptionalChain": "error",
+        "useSimpleNumberKeys": "error",
+        "useSimplifiedLogicExpression": "error"
+      },
+      "recommended": true,
+      "suspicious": {
+        "noExplicitAny": "off",
+        "useAwait": "error"
+      },
+      "performance": {
+        "noAccumulatingSpread": "off"
+      },
+      "style": {
+        "noNonNullAssertion": "off",
+        "useShorthandFunctionType": "error",
+        "noParameterAssign": "error",
+        "noShoutyConstants": "error",
+        "noUnusedTemplateLiteral": "error",
+        "noUselessElse": "error",
+        "noVar": "error",
+        "useAsConstAssertion": "error",
+        "useBlockStatements": "error",
+        "useConsistentArrayType": "error",
+        "useConst": "error",
+        "useDefaultParameterLast": "error",
+        "useImportType": "error",
+        "useSelfClosingElements": "error",
+        "useSingleVarDeclarator": "error",
+        "useTemplate": "error"
+      }
+    }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true,
+    "defaultBranch": "main"
+  }
+}
