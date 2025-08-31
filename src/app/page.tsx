@@ -1,3 +1,11 @@
+import { LastAlbumSection } from '@/components/LastAlbumSection'
+import { ListenNowSection } from '@/components/ListenNowSection'
+
 export default function Home() {
-  return <div>hello</div>
+  return (
+    <>
+      <LastAlbumSection />
+      <ListenNowSection />
+    </>
+  )
 }
