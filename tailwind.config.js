@@ -5,16 +5,5 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: {
-    extend: {
-      colors: {
-        'better-black': '#202020',
-        'better-white': '#F7FDF4',
-      },
-      fontFamily: {
-        mono: ['var(--font-jetbrains)'],
-      },
-    },
-  },
   plugins: [],
 }
