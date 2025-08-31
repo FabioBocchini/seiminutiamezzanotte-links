@@ -6,6 +6,7 @@ import youtubeIcon from '../../public/socialIcons/youtube.svg'
 import spotifyIcon from '../../public/socialIcons/spotify.svg'
 import appleMusicIcon from '../../public/socialIcons/apple_music.svg'
 import emailIcon from '../../public/socialIcons/email.svg'
+import soundcloudIcon from '../../public/socialIcons/soundcloud.svg'
 
 const Home: React.FC = () => {
   return (
@@ -33,7 +34,7 @@ const Home: React.FC = () => {
             size={52}
             href="https://www.youtube.com/@seiminutiamezzanotte3062"
           />
-          <SocialItem icon={spotifyIcon} alt="spotify" href="https://open.spotify.com/artist/5vUtnUpkbA4o7L2Kx5PRio" />
+          <SocialItem icon={soundcloudIcon} alt="soundcloud" size={52} href="https://soundcloud.com/sei-minuti-a-mezzanotte" />
           <SocialItem
             icon={appleMusicIcon}
             alt="apple music"
