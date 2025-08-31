@@ -3,17 +3,16 @@ import clsx from 'clsx'
 import SocialItem from '@/components/social-item'
 import instagramIcon from '../../public/socialIcons/instagram.svg'
 import youtubeIcon from '../../public/socialIcons/youtube.svg'
-import spotifyIcon from '../../public/socialIcons/spotify.svg'
 import appleMusicIcon from '../../public/socialIcons/apple_music.svg'
 import emailIcon from '../../public/socialIcons/email.svg'
 import soundcloudIcon from '../../public/socialIcons/soundcloud.svg'
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col px-0 overflow-y-hidden ">
+    <div className="flex flex-col px-0 overflow-y-hidden">
       <div
         className={clsx(
-          'bg-smam-light pl-2 sm:pl-10 flex flex-col justify-center pt-28',
+          'bg-smam-light text-smam-dark pl-2 sm:pl-10 flex flex-col justify-center pt-28',
           'font-extrabold text-5xl sm:text-8xl lg:text-9xl'
         )}
       >

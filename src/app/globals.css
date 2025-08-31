@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-    --color-smam-dark: #202020;
-    --color-smam-light: #F7FDF4;
+    --color-smam-dark: #3d2b2d;
+    /*--color-smam-dark: #202020;*/
+    --color-smam-light: #fc563d;
+    /*--color-smam-light: #F7FDF4;*/
     --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

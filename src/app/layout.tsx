@@ -19,7 +19,7 @@ type TProps = {
 const RootLayout: React.FC<TProps> = ({ children }) => {
   return (
     <html lang="en" className={jetbrainsMono.variable}>
-      <body className="bg-smam font-mono">{children}</body>
+      <body className="bg-smam-dark font-mono">{children}</body>
     </html>
   )
 }
