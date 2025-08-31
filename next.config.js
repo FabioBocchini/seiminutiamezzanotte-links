@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
   output: 'export',
-  basePath: '/seiminutiamezzanotte-links',
+  basePath: isProd ? '/seiminutiamezzanotte-links' : '',
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-  optimizeFonts: false
 }
 
 module.exports = nextConfig

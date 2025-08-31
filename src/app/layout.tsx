@@ -1,13 +1,14 @@
 import React from 'react'
 import { JetBrains_Mono } from 'next/font/google'
 import './globals.css'
+import { Metadata } from 'next'
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
   variable: '--font-jetbrains'
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Sei Minuti a Mezzanotte'
 }
 
@@ -17,8 +18,8 @@ type TProps = {
 
 const RootLayout: React.FC<TProps> = ({ children }) => {
   return (
-    <html lang="en">
-      <body className={`bg-better-black ${jetbrainsMono.className} font-mono`}>{children}</body>
+    <html lang="en" className={jetbrainsMono.variable}>
+      <body className="bg-smam font-mono">{children}</body>
     </html>
   )
 }
