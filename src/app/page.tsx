@@ -10,6 +10,7 @@ import soundcloudIcon from '../../public/socialIcons/soundcloud.svg'
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col px-0 overflow-y-hidden">
+      <div className="bg-smam-light text-2xl text-center">🇵🇸</div>
       <div
         className={clsx(
           'bg-smam-light text-smam-dark pl-2 sm:pl-10 flex flex-col justify-center pt-28',
@@ -25,6 +26,7 @@ const Home: React.FC = () => {
       </div>
       <div className="bg-smam-dark text-smam-light">
         <div className="pl-2 sm:pl-10 font-extrabold text-5xl sm:text-8xl lg:text-9xl">MEZZANOTTE</div>
+
         <div className={clsx('flex flex-row flex-wrap items-center justify-center w-full lg:gap-20 py-28 md:py-28')}>
           <SocialItem icon={instagramIcon} alt="instagram" href="https://www.instagram.com/seiminutiamezzanotte/" />
           <SocialItem
